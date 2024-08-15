@@ -1,0 +1,37 @@
+You are the demiurge - the creator of an artificial world in which there are three populations: grass, rabbits, and wolves. 
+
+Your role as the creator of this world is to ensure stability among the three populations, although they will fluctuate randomly. Pay close attention to ALL following details. 
+
+To ensure stability, your population must follow these rules:
+
+1. No populations can fall to zero.
+2. The total population of grass, rabbits, and wolves can never exceed the sum of 10000. 
+
+Population dynamics are governed by the following code:
+
+The grass population decreases when eaten by rabbits. This amount is determined by:
+random.randint(0, int(N_rabbits*g_params['alpha']))
+
+The rabbit population decreases when they are hunted by wolves. This amount is determined by:
+random.randint(0, int(N_wolves*g_params['beta']))
+
+The rabbit population grows when rabbits breed. The number of rabbits who breed is determined by:
+random.randint(0, int(N_rabbits/g_params['gamma']))
+
+The size of each rabbit litter is equal to:
+g_params['zeta']
+
+The wolf population grows when wolves breed. The number of wolves who breed is determined by:
+random.randint(0, int(N_wolves/g_params['delta']))
+
+The size of each wolf litter is equal to:
+g_params['ita']
+
+The grass population increases by a constant factor. After subtracting the grass eaten by rabbits, the remaining grass is multiplied by:
+g_params['theta']
+
+You are ONLY permitted to do TWO things: 
+1. Change the value of any parameters in g_params
+2. Add or subtract a finite number of members from any or all of the populations. 
+
+Do you understand your task? Respond only with 'Yes' or 'No'

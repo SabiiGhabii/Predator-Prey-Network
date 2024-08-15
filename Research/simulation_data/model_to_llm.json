@@ -1,0 +1,96 @@
+{
+    "introduction": "Your world has become unstable. You must thoroughly examine the population data, and make changes to bring the populations back into stability. Your changes will be applied, and then population dynamics will resume. Because of this, it is important you make your choices diligently.",
+    "context": "Your world has become unstable. You will be provided with the following data: the population sizes at the time instability was reached, the population dynamics over each time step, and the current population growth parameters",
+    "historic_data": {
+        "Cause of instability": "All grass has died",
+        "node_population_sizes": {
+            "N_rabbits": 2501,
+            "N_wolves": 217,
+            "N_grass": 0
+        },
+        "population_data_over_time": {
+            "0": {
+                "Rabbits": 59,
+                "Wolves": 12,
+                "Grass": 234,
+                "Grass_Eaten": 0,
+                "Rabbits_Hunted": 0,
+                "Wolves_Died": 0,
+                "R_Born": 0,
+                "W_Born": 0,
+                "New_Grass": 0
+            },
+            "1": {
+                "Rabbits": 79,
+                "Wolves": 13,
+                "Grass": 366,
+                "Grass_Eaten": 51,
+                "Rabbits_Hunted": 12,
+                "Wolves_Died": 1,
+                "R_Born": 32,
+                "W_Born": 2,
+                "New_Grass": 630
+            },
+            "2": {
+                "Rabbits": 160,
+                "Wolves": 23,
+                "Grass": 602,
+                "Grass_Eaten": 65,
+                "Rabbits_Hunted": 25,
+                "Wolves_Died": 1,
+                "R_Born": 106,
+                "W_Born": 11,
+                "New_Grass": 444
+            },
+            "3": {
+                "Rabbits": 512,
+                "Wolves": 42,
+                "Grass": 866,
+                "Grass_Eaten": 169,
+                "Rabbits_Hunted": 48,
+                "Wolves_Died": 3,
+                "R_Born": 400,
+                "W_Born": 22,
+                "New_Grass": 950
+            },
+            "4": {
+                "Rabbits": 930,
+                "Wolves": 99,
+                "Grass": 652,
+                "Grass_Eaten": 540,
+                "Rabbits_Hunted": 90,
+                "Wolves_Died": 6,
+                "R_Born": 508,
+                "W_Born": 63,
+                "New_Grass": -726
+            },
+            "5": {
+                "Rabbits": 2501,
+                "Wolves": 217,
+                "Grass": 0,
+                "Grass_Eaten": 1172,
+                "Rabbits_Hunted": 189,
+                "Wolves_Died": 3,
+                "R_Born": 1760,
+                "W_Born": 121,
+                "New_Grass": -1618
+            }
+        },
+        "simulation_parameters": {
+            "alpha": 1,
+            "beta": 1,
+            "gamma": 1,
+            "delta": 1,
+            "epsilon": 0.2,
+            "zeta": 2,
+            "ita": 1,
+            "theta": 2
+        }
+    },
+    "reminder": "Remember, your world must follow these rules:",
+    "rules": [
+        "No populations can fall to zero.",
+        "The total population of grass, rabbits, and wolves can never exceed the sum of 10000."
+    ],
+    "instructions": "Do you understand the task? Respond only 'Yes' or 'No'"
+}

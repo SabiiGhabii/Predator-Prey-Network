@@ -1,0 +1,27 @@
+{
+    "introduction": "Your world has become unstable. You must thoroughly examine the population data, and make changes to bring the populations back into stability. Your changes will be applied, and then population dynamics will resume. Because of this, it is important you make your choices diligently.",
+    "context": "Your world has become unstable. You will be provided with the following data: the population sizes at the time instability was reached, the population dynamics over each time step, and the current population growth parameters",
+    "historic_data": "[data]",
+    "reminder": "Remember, your world must follow these rules:",
+    "rules": [
+        "No populations can fall to zero.",
+        "The total population of grass, rabbits, and wolves can never exceed the sum of 10000."
+    ],
+    "instructions": "After reviewing this data, what would you like g_params to be updated? Place your response in the quotes after each parameter name.",
+    "parameters": {
+        "alpha": "",
+        "beta": "",
+        "gamma": "",
+        "delta": "",
+        "epsilon": "",
+        "zeta": "",
+        "ita": "",
+        "theta": ""
+    },
+    "adjustment_instructions": "Add or subtract the appropriate amounts to ensure that the populations all abide by the rules. Place the amount you would like to add or subtract from each population in the quotes following the = sign.",
+    "population_adjustments": {
+        "Grass": "",
+        "Rabbits": "",
+        "Wolves": ""
+    }
+}
