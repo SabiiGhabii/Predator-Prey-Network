@@ -1,0 +1,65 @@
+{
+    "Explanation": "An artificial world of grass, rabbits, and wolves has grown unstable. Populations have become unstable because: All grass has died. Consider decreasing rabbits slightly, or increasing grass slightly.. You must change the growth rates to restore stability to the populations. Each time step, a random amount of rabbits and wolves will breed: you control the size of each rabbit litter and each wolf litter. You also control the constant by which grass grows in a multiplicative fashion. Rabbits eat grass, and wolves eat rabbits. Review the data provided to you which shows the growth of each population over time, and provide your answers.",
+    "population_data_over_time": {
+        "0": {
+            "Rabbits": 61,
+            "Wolves": 15,
+            "Grass": 208
+        },
+        "1": {
+            "Rabbits": 50,
+            "Wolves": 13,
+            "Grass": 495
+        },
+        "2": {
+            "Rabbits": 124,
+            "Wolves": 28,
+            "Grass": 1257
+        },
+        "3": {
+            "Rabbits": 304,
+            "Wolves": 56,
+            "Grass": 3324
+        },
+        "4": {
+            "Rabbits": 516,
+            "Wolves": 136,
+            "Grass": 9042
+        },
+        "5": {
+            "Rabbits": 772,
+            "Wolves": 211,
+            "Grass": 25296
+        },
+        "6": {
+            "Rabbits": 1203,
+            "Wolves": 428,
+            "Grass": 74448
+        },
+        "7": {
+            "Rabbits": 448,
+            "Wolves": 109,
+            "Grass": 180
+        },
+        "8": {
+            "Rabbits": 323,
+            "Wolves": 175,
+            "Grass": 0
+        },
+        "9": {
+            "Rabbits": 93,
+            "Wolves": 106,
+            "Grass": 0
+        },
+        "10": {
+            "Rabbits": null,
+            "Wolves": null,
+            "Grass": null
+        }
+    },
+    "params": {
+        "Grass": 1.5,
+        "Rabbits": 2.0,
+        "Wolves": 1.5
+    }
+}
